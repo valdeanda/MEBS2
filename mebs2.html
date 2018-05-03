@@ -358,6 +358,26 @@ Archaeoglobus</code></pre>
 
    <span class="op">-</span>comp    Compute the metabolic completeness                            (optional)</code></pre></div>
 <p>*NOT RUNNING! ERROR LOCATING HMM**</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">
+<span class="fu">perl</span> mebsv2.pl -input test_genomes  -type genomic -db Pfam-A.hmm 
+<span class="co"># mebsv2.pl -input test_genomes -type genomic  -comp </span>
+
+<span class="ex">1</span>
+    <span class="ex">srb</span>
+<span class="ex">Enterococcus_durans.faatest_input/</span>
+
+<span class="ex">Error</span>: File existence/permissions problem in trying to open HMM file 1.
+<span class="ex">HMM</span> file 1 not found (nor an .h3m binary of it)
+
+<span class="co"># ERROR: failed to generate test_genomes/Enterococcus_durans.faa.srb.hmmsearch.tab</span>
+    <span class="ex">NA</span>
+<span class="ex">Archaeoglobus_profundus_DSM_5631.faatest_input/</span>
+
+<span class="ex">Error</span>: File existence/permissions problem in trying to open HMM file 1.
+<span class="ex">HMM</span> file 1 not found (nor an .h3m binary of it)
+
+<span class="co"># ERROR: failed to generate test_genomes/Archaeoglobus_profundus_DSM_5631.faa.srb.hmmsearch.tab</span>
+    <span class="ex">NA</span></code></pre></div>
 </div>
 
 
